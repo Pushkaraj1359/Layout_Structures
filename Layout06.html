@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 80px;
+        }
+        .flex{
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        .first{
+            margin-top: 10px;
+            width: 100vw;
+            height: 20vh;
+            border: 2px solid black;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .second{
+            width: 100vw;
+            height:10vh;
+            border: 2px solid black;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .flex{
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        .main{
+            width: 100vw;
+            height: 50vh;
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            border-left: none;
+            border-right: none;
+        }
+        .box1{
+            width: 60vw;
+            height: 50vh;
+            border: 2px solid black;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .flex1{
+            display: flex;
+            flex-direction: column;
+        }
+        .main2{
+            width: 40vw;
+            height: 50vh;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-left: none;
+        }
+        .flex2{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .pushu1{
+            width: 13vw;
+            height:24vh;
+            border: 2px solid black;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hanmu1{
+            width: 23vw;
+            height:24vh;
+            border: 2px solid black;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .flex3{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .bottom{
+            width: 36vw;
+            height: 20vh;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .flex4{
+            display: flex;
+        }
+        .footer{
+            width: 100vw;
+            height: 10vh;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center
+        }
+        </style>
+</head>
+<body>
+    <div class="first">BANNER</div>
+    <div class="second">NAVIGATION LINKS</div>
+    <div class="flex">
+        <div class="main">
+            <div class="box1">MAIN CONTENT</div>
+            <div class="flex1">
+                <div class="main2">
+                    <div class="flex2">
+                        <div class="pushu1">PICTURE</div>
+                        <div class="hanmu1"><span>ABOUT ME BLURB</span></div>
+                    </div>
+                    <div class="flex3">
+                        <div class="bottom">
+                            RECENT TWEETS
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex4">
+        <div class="footer">FOOTER</div>
+    </div>
+</body>
+</html>

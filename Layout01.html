@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout practice set</title>
+   <style>
+     *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        background-color: gray;  
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        display: block;
+        margin-bottom:80px;
+    }
+    .header{
+        width:100vw;
+        height: 20vh;
+        border: 2px solid black;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        margin-bottom:80px;
+    }
+    .nav{
+        width:100vw;
+        height: 20vh;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+    .main2{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction:row;
+        flex-wrap: nowrap;
+        margin: 80px;
+    } 
+    .first{
+        width:20vw;
+        height:60vh;
+        border: 2px solid black;
+        display: inline-block;
+        margin-right: 3vw;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-size: 40px;
+    }
+    .second{
+        width:54vw;
+        height:60vh;
+        border: 2px solid black;
+        display: inline-block;
+        margin-right: 3vw;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-size: 40px;
+    }
+    .thred{
+        width:20vw;
+        height:60vh;
+        border: 2px solid black;
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-size: 40PX;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:row;
+        margin-bottom: 80px; 
+        border:2px solid black;
+        font-size: 40px;
+    }
+    .footer1{
+        width: 100vw;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            HEADER
+        </div>
+        <div class="nav">
+            NAVIGATION MENU
+        </div>
+    </div>
+    <div class="main2">
+        <div class="first">CONTENT</div>
+        <div class="second">MAIN CONTENT</div>
+        <div class="thred">CONTECT</div>
+    </div>
+    <div class="footer">
+        <div class="footer1">
+            FOOTER
+        </div>
+    </div>
+
+</body>
+</html>
